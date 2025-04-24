@@ -1,0 +1,36 @@
+GET http://localhost:8000
+
+###
+
+POST http://localhost:8000/api/assistance
+content-type: application/json
+
+{
+    "is_use_rag": true,
+    "query": "In less than 50 words; Do Malaysia requires custom declaration?"
+}
+
+
+###
+
+
+GET http://localhost:8000/api/rag
+
+
+###
+
+
+POST http://localhost:8000/api/rag/add
+content-type: application/json
+
+{
+
+  "text": "Malaysia requires customs declaration for goods exceeding MYR 500."
+}
+
+
+###
+
+
+GET http://localhost:8000/api/rag/list
+

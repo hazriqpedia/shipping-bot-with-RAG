@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="26.2.13">
+  <diagram name="Page-1" id="LK1H4HaWcbFpq0hE5BT6">
+    <mxGraphModel dx="2247" dy="2059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-100" width="1200" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="-90" width="1180" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="250" width="1180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FyvyRudsGTSAMZOXvgrq-1" target="FyvyRudsGTSAMZOXvgrq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-1" value="Customer&#39;s query&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 204));&quot;&gt;&quot;Do Malaysia requires custom declaration?&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="131" width="210" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="FyvyRudsGTSAMZOXvgrq-2" target="FyvyRudsGTSAMZOXvgrq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-29" value="Query with Context&lt;div&gt;supplied by&lt;/div&gt;&lt;div&gt;Vectors store&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FyvyRudsGTSAMZOXvgrq-13">
+          <mxGeometry x="-0.1022" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-2" value="Vectors Store&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;(eg. FAISS, Chroma DB)&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FyvyRudsGTSAMZOXvgrq-3" target="FyvyRudsGTSAMZOXvgrq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FyvyRudsGTSAMZOXvgrq-3" target="FyvyRudsGTSAMZOXvgrq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-3" value="LLM&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(eg. GPT4, Gemini)&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="643" y="90" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-6" value="Response&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 204));&quot;&gt;&quot;Yes, Malaysia generally requires customs declarations for goods brought into or out of the country.&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="843" y="278" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="FyvyRudsGTSAMZOXvgrq-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="338" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FyvyRudsGTSAMZOXvgrq-8" target="FyvyRudsGTSAMZOXvgrq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-17" value="Embedding&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(eg. SentenceTransformer)&amp;nbsp;&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FyvyRudsGTSAMZOXvgrq-9">
+          <mxGeometry x="-0.2131" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-8" value="Company&#39;s Internal Informations&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 204));&quot;&gt;&quot;Malaysia requires customs declaration for goods exceeding MYR 500.&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-60" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-18" value="&lt;div&gt;RAG (Retrieval-Augmented Generation) augments LLMs&lt;/div&gt;&lt;div&gt;by retrieving relevant internal data&lt;/div&gt;&lt;div&gt;before generating answers.&amp;nbsp;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;i&gt;*embedding: text -&amp;gt; vector&lt;/i&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="838" y="-80" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-21" value="&lt;b&gt;&lt;i&gt;With RAG enabled&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="-90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-22" value="&lt;b&gt;&lt;i&gt;With RAG disabled&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-23" value="Response&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 204));&quot;&gt;&quot;Yes, Malaysia requires customs declaration for goods exceeding MYR 500 in value.&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="843" y="111" width="310" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="FyvyRudsGTSAMZOXvgrq-27" value="Customer&#39;s query&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 204));&quot;&gt;&quot;Do Malaysia requires custom declaration?&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="297" width="210" height="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
