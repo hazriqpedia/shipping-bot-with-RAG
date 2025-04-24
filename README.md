@@ -120,5 +120,6 @@ GEMINI_MODEL_NAME=gemini-2.0-flash
 
 
 To-do:
-- Text chunking
+- Text chunking when running embedding
 - gitignore storage
+- pytest
